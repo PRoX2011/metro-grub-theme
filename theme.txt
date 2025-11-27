@@ -1,0 +1,43 @@
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+
++ boot_menu {
+    left = 27%
+    top = 22%
+    width = 53%
+    height = 45%
+
+    item_font = "saira"
+    item_color = "#999974"     
+    
+    selected_item_color = "#4A3930" 
+    
+    item_height = 40
+    item_padding = 8
+    item_spacing = 4
+
+    selected_item_pixmap_style = "select_*.png"
+    
+    scrollbar = false
+}
+
++ label {
+    top = 60%
+    left = 30%
+    width = 30%
+    text = "BOOTING IN %d SECONDS..."
+    color = "#999974"
+    item_font = "saira"
+}
+
+# === ПОДСКАЗКИ (внизу справа) ===
++ label {
+    top = 60%
+    left = 50%
+    width = 25%
+    align = "right"
+    text = "[ENTER] SELECT    [E] EDIT    [C] CONSOLE"
+    color = "#999974"
+    item_font = "saira"
+}
